@@ -1,0 +1,269 @@
+@media (max-width: 992px) {
+    .navbar {
+        gap: 10px;
+    }
+
+    .navbar-list {
+        position: absolute;
+        top: 45px;
+        left: 11%;
+        right: 9%;
+        width: 80%;
+        height: 250px;
+        flex-direction: column;
+        background: linear-gradient(to bottom, #eea849, #f46b45);
+        border: 2px solid white;
+        border-top: none;
+        border-radius: 0px 0px 15px 15px;
+        align-items: center;
+        padding: 45px 35px;
+        gap: 15px;
+        z-index: 2;
+        display: none;
+    }
+
+    .navbar-list a {
+        font-size: 20px;
+    }
+
+    .menu-label {
+        display: flex;
+        order: 2;
+        cursor: pointer;
+    }
+
+    .menu-label img {
+        height: 50px;
+        width: 55px
+    }
+
+    #menu-toggle:checked+.navbar-list {
+        display: flex;
+    }
+
+    .menu-icon,
+    .logo {
+        z-index: 3;
+    }
+
+    .hero-info {
+        width: 100%;
+        text-align: left;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .hero-info h1 {
+        width: 90%;
+        max-width: 600px;
+        min-width: unset;
+    }
+
+    .hero-info p {
+        width: 90%;
+        max-width: 600px;
+    }
+
+    .mostro {
+        width: 300px;
+    }
+
+
+    #marcas {
+        width: 100%;
+    }
+
+    .emprendimiento {
+        width: 90%;
+    }
+
+
+    .muestras-conteiner {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+    }
+
+    .marcas {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #marcas .muestras img {
+        width: 350px;
+        height: 250px;
+        display: flex;
+        align-items: column;
+        justify-content: center;
+        gap: 10px;
+        margin: 10px border-radius: 15px;
+        border: white solid;
+    }
+
+    #info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 90%;
+    }
+
+    .info-card-conteiner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .info-card {
+        width: 80%;
+    }
+
+
+
+}
+
+@media (max-width: 991px) {
+    .mostro {
+        display: none;
+    }
+}
+
+@media (max-width: 780px) {
+    .navbar-list {
+        position: absolute;
+        top: 45px;
+        left: 18.5%;
+        right: 24%;
+        width: 70%;
+        height: 200px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .navbar-list {
+        position: absolute;
+        top: 45px;
+        left: 24%;
+        right: 16%;
+        width: 60%;
+        height: 220px;
+    }
+
+    #hero {
+        width: 100%;
+    }
+
+    .hero-info {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    .hero-info h1 {
+        width: 100%;
+        max-width: 600px;
+        min-width: unset;
+    }
+
+    .hero-info p {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    #hero .boton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+
+    #marcas {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .emprendimiento {
+        width: 90%;
+    }
+
+    .emprendimiento h2 {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .muestras-conteiner {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .muestras {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    #contacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+
+    .formulario {
+        width: 90%;
+    }
+
+    .conteinter-cajas {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    .footer-img-conteiner {
+        width: 90%;
+    }
+
+    .footer-banner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
